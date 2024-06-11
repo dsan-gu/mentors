@@ -11,7 +11,7 @@ jobs:
       with:
         host: jpj.georgetown.domains
         username: jpjgeorg
-        port: 443
+        port: "22"
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         passphrase: ${{ secrets.SSH_PRIVATE_KEY_PASSPHRASE }}
         source: "docs/*"
