@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: copy file via ssh password
-      uses: appleboy/scp-action@v0.1.7
+      uses: appleboy/scp-action@v0.1.3
       with:
         host: jpj.georgetown.domains
         username: jpjgeorg
