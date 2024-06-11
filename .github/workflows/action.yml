@@ -9,9 +9,9 @@ jobs:
     - name: copy file via ssh password
       uses: appleboy/scp-action@v0.1.7
       with:
-        host: "jpj.georgetown.domains"
+        host: jpj.georgetown.domains
         username: jpjgeorg
-        port: 22
+        port: 443
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         passphrase: ${{ secrets.SSH_PRIVATE_KEY_PASSPHRASE }}
         source: "docs/*"
