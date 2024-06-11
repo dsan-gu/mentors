@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href=".//assets/img/favicon.png" rel="icon" type="image/png">
+<link href="./favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,12 +83,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="./assets/css/jjcustom.css">
 </head>
 
-<body>
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      DSAN Mentorship Program
+      </li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
@@ -108,6 +121,24 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">DSAN Mentorship Program</a> 
+    </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./#top-of-page" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Back to Top</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
@@ -120,12 +151,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <a name="top-of-page"></a>
-<!-- <div class="top-banner column-screen-inset-right">
-<div>
-Data Science & Analytics sponsors a Mentorship Program to provide support for incoming students and foster a sense of community among first-year and second-year students in which second-year students serve as mentors to first-year students. Second-year student mentors act as a resource for new students. Mentors may provide guidance on topics such as: where to live, what to expect from classes, how and when to start looking for an internship, and any other questions first-year students might have. Mentors also meet with their mentees throughout the academic year. A list of all of the possible mentors, including their background, interests, and strengths, can be found in the table below. Each mentor is shown with an ID uniquely identifying them. Please make a note of that ID when submitting your preferences.
-</div> -->
 <div class="column-body page-columns page-full">
-
 <p>Welcome to the DSAN Mentorship Program! Browse available mentors in the list below, (optionally) using the filters on the right to narrow the list, then indicate the <strong>ID</strong> values for your top 10 preferences in the mentorship preferences form.</p>
 <div>
   
@@ -142,9 +168,9 @@ Data Science & Analytics sponsors a Mentorship Program to provide support for in
 
 </table>
 
-</div>
+</div> <!-- end column-body -->
 
-<!-- end accordion -->
+ <!-- end column-margin -->
 <div class="no-row-height column-margin column-container"><div class="floating overflow-auto" style="top: 0px">
   <div class="accordion sticky-top" id="accordionFilters">
     <div class="accordion-item">
@@ -167,65 +193,63 @@ Data Science & Analytics sponsors a Mentorship Program to provide support for in
               </div><!-- end button group -->
             </div><!-- end row -->
           </div><!-- end button container -->
-<p class="h5 mb-1">Strengths:</p>
-</form></div>
-
+          <p class="h5 mb-1">Strengths:</p>
+      
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-familiar-checkbox" value="I am familiar with life in DC" checked="" disabled="">
+  <input class="form-check-input" type="checkbox" id="strength-familiar-checkbox" value="Familiar with life in DC" checked="" disabled="">
     <label class="form-check-label" for="strength-familiar-checkbox">
-      <i class="fa-solid fa-champagne-glasses"></i>&nbsp;I am familiar with life in DC
+      <i class="bi bi-buildings-fill pe-1"></i>Familiar with life in DC
     </label>
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-international-checkbox" value="I am familiar with the international processes for studying in the US" checked="" disabled="">
+  <input class="form-check-input" type="checkbox" id="strength-international-checkbox" value="Familiar with international student processes" checked="" disabled="">
     <label class="form-check-label" for="strength-international-checkbox">
-      <i class="fa-solid fa-globe"></i>&nbsp;I am familiar with the international processes for studying in the US
+      <i class="bi bi-globe pe-1"></i>Familiar with international student processes
     </label>
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-friendly-checkbox" value="I am friendly and welcoming" checked="" disabled="">
+  <input class="form-check-input" type="checkbox" id="strength-friendly-checkbox" value="Friendly and welcoming" checked="" disabled="">
     <label class="form-check-label" for="strength-friendly-checkbox">
-      <i class="fa-solid fa-face-smile"></i>&nbsp;I am friendly and welcoming
+      <i class="bi bi-emoji-smile-fill pe-1"></i>Friendly and welcoming
     </label>
 </div>
 
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="checkbox" id="strength-academic-checkbox" value="I am strong academically" checked="" disabled="">
     <label class="form-check-label" for="strength-academic-checkbox">
-      <i class="fa-solid fa-award"></i>&nbsp;I am strong academically
+      <i class="bi bi-award-fill pe-1"></i>Strong academically
     </label>
 </div>
 
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="checkbox" id="strength-organizing-checkbox" value="I enjoy organizing social activities" checked="" disabled="">
     <label class="form-check-label" for="strength-organizing-checkbox">
-      <i class="fa-solid fa-people-group"></i>&nbsp;I enjoy organizing social activities
+      <i class="bi bi-people-fill pe-1"></i>I enjoy organizing social activities
     </label>
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-campus-checkbox" value="I have become very familiar with the campus" checked="" disabled="">
+  <input class="form-check-input" type="checkbox" id="strength-campus-checkbox" value="Familiar with the campus" checked="" disabled="">
     <label class="form-check-label" for="strength-campus-checkbox">
-      <i class="fa-solid fa-building-columns"></i>&nbsp;I have become very familiar with the campus
+      <i class="bi bi-compass-fill pe-1"></i>Familiar with the campus
     </label>
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-experience-checkbox" value="I have work and/or internship experience" checked="" disabled="">
+  <input class="form-check-input" type="checkbox" id="strength-experience-checkbox" value="Work/internship experience" checked="" disabled="">
     <label class="form-check-label" for="strength-experience-checkbox">
-      <i class="fa-solid fa-briefcase"></i>&nbsp;I have work and/or internship experience
+      <i class="bi bi-suitcase-lg-fill pe-1"></i>Work/internship experience
     </label>
 </div>
 
 <div class="form-check form-check-inline">
   <input class="form-check-input" type="checkbox" id="strength-mentor-checkbox" value="I used to be a mentor in my undergrad" checked="" disabled="">
     <label class="form-check-label" for="strength-mentor-checkbox">
-      <i class="fa-solid fa-graduation-cap"></i>&nbsp;I used to be a mentor in my undergrad
+      <i class="bi bi-mortarboard-fill pe-1"></i>I used to be a mentor in my undergrad
     </label>
 </div>
-
 <p class="h5 mb-1">Hobbies:</p>
 
 <div class="form-check form-check-inline">
@@ -395,13 +419,12 @@ Data Science & Analytics sponsors a Mentorship Program to provide support for in
       <i class="fa-solid fa-person-falling" title="Yoga"></i>&nbsp;Yoga
     </label>
 </div>
-
-          
+          </form>
         </div><!-- end accordion-body -->
       </div><!-- end accorion-collapse -->
     </div><!-- end accordion-item -->
-  </div></div></div> <!-- end column-margin -->
-<script>
+  </div><!-- end accordion -->
+</div></div><script>
     function detailFormatter(index, row) {
         var excludeFields = ['id', 'status', 'major'];
         var html = []
@@ -598,6 +621,7 @@ function hobbiesFormatter(value, row) {
   return hobbyStr;
 }
 </script>
+</div>
 
 
 
