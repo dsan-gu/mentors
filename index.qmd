@@ -430,13 +430,13 @@ Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vQBF5uM7cMSFq_TkxVW0
   }
 });
 var strengthDict = {
-  "I am familiar with life in DC": "fa-solid fa-champagne-glasses",
-  "I am familiar with the international processes for studying in the US": "fa-solid fa-globe",
-  "I am friendly and welcoming": "fa-solid fa-face-smile",
-  "I am strong academically": "fa-solid fa-award",
+  "Familiar with life in DC": "fa-solid fa-champagne-glasses",
+  "Familiar with international student issues": "fa-solid fa-globe",
+  "Friendly and welcoming": "fa-solid fa-face-smile",
+  "Strong academically": "fa-solid fa-award",
   "I enjoy organizing social activities": "fa-solid fa-people-group",
-  "I have become very familiar with the campus": "fa-solid fa-building-columns",
-  "I have work and/or internship experience": "fa-solid fa-briefcase",
+  "Familiar with the campus": "fa-solid fa-building-columns",
+  "Work/internship experience": "fa-solid fa-briefcase",
   "I used to be a mentor in my undergrad": "fa-solid fa-graduation-cap"
 }
 var allStrengths = Object.keys(strengthDict);
