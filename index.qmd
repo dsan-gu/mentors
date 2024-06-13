@@ -1,5 +1,5 @@
 ---
-title: "<span class='quarto-title-span px-5 py-2' style='inline-block'>DSAN Mentorship Program</span>"
+title: "<span class='quarto-title-span px-5 py-2' style='display: inline-block'>DSAN Mentorship Program</span>"
 include-in-header: "mentor-header.html"
 anchor-sections: false
 page-layout: article
@@ -23,7 +23,7 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
   >
      <thead>
           <tr>
-               <th data-field="id" data-width="100">ID</th>
+               <th data-field="id" data-width="80">ID</th>
                <th data-field="status">Status</th>
                <th data-field="major">Major</th>
                <th data-field="strengths" data-formatter="strengthsFormatter">Strengths</th>
