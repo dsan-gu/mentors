@@ -101,19 +101,19 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
     </label>
 </div>
 
-<div class="form-check form-check-inline">
+<!-- <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-bars-checkbox" value="Bars & Clubs" checked disabled>
     <label class="form-check-label" for="hobby-bars-checkbox">
       <i class="fa-solid fa-martini-glass" title="Bars & Clubs"></i>&nbsp;Bars & Clubs
     </label>
-</div>
+</div> -->
 
-<div class="form-check form-check-inline">
+<!-- <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-boardgames-checkbox" value="Board / Card Games" checked disabled>
     <label class="form-check-label" for="hobby-boardgames-checkbox">
       <i class="fa-solid fa-game-board" title="Board / Card Games"></i>&nbsp;Board / Card Games
     </label>
-</div>
+</div> -->
 
 <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-cooking-checkbox" value="Cooking" checked disabled>
@@ -122,12 +122,12 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
     </label>
 </div>
 
-<div class="form-check form-check-inline">
+<!-- <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-crafts-checkbox" value="Creative Projects" checked disabled>
     <label class="form-check-label" for="hobby-crafts-checkbox">
       <i class="fa-solid fa-pen-ruler" title="Creative Projects"></i>&nbsp;Creative Projects
     </label>
-</div>
+</div> -->
 
 <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-cycling-checkbox" value="Cycling" checked disabled>
@@ -136,12 +136,12 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
     </label>
 </div>
 
-<div class="form-check form-check-inline">
+<!-- <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-dancing-checkbox" value="Dancing" checked disabled>
     <label class="form-check-label" for="hobby-dancing-checkbox">
       <i class="fa-solid fa-party-horn" title="Dancing"></i>&nbsp;Dancing
     </label>
-</div>
+</div> -->
 
 <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-film-checkbox" value="Film Enthusiast" checked disabled>
@@ -213,12 +213,12 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
     </label>
 </div>
 
-<div class="form-check form-check-inline">
+<!-- <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-science-checkbox" value="Science" checked disabled>
     <label class="form-check-label" for="hobby-science-checkbox">
       <i class="fa-solid fa-flask-vial" title="Science"></i>&nbsp;Science
     </label>
-</div>
+</div> -->
 
 <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-sports-checkbox" value="Sports" checked disabled>
@@ -241,12 +241,12 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
     </label>
 </div>
 
-<div class="form-check form-check-inline">
+<!-- <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-volunteer-checkbox" value="Volunteering" checked disabled>
     <label class="form-check-label" for="hobby-volunteer-checkbox">
       <i class="fa-solid fa-handshake-angle" title="Volunteering"></i>&nbsp;Volunteering
     </label>
-</div>
+</div> -->
 
 <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-writing-checkbox" value="Writing" checked disabled>
@@ -255,12 +255,13 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
     </label>
 </div>
 
-<div class="form-check form-check-inline">
+<!-- <div class="form-check form-check-inline">
 <input class="form-check-input" type="checkbox" id="hobby-yoga-checkbox" value="Yoga" checked disabled>
     <label class="form-check-label" for="hobby-yoga-checkbox">
       <i class="fa-solid fa-person-falling" title="Yoga"></i>&nbsp;Yoga
     </label>
-</div>
+</div> -->
+
           </form>
         </div><!-- end accordion-body -->
       </div><!-- end accorion-collapse -->
