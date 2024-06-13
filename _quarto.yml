@@ -5,12 +5,12 @@ project:
     port: 4321
 
 website:
-  title: "DSAN Mentorship Program"
+  title: "Georgetown DSAN Mentorship Program"
   favicon: "favicon.png"
   sidebar:
     id: mainnav
     style: "floating"
-    title: "DSAN Mentorship Program"
+    title: "Georgetown DSAN Mentorship Program"
     search: false
     contents:
       - text: "Back to Top"

@@ -13,7 +13,7 @@ sidebar: mainnav
 <div class="column-body">
 ```
 
-Welcome to the DSAN Mentorship Program! Browse available mentors in the list below, (optionally) using the filters on the right to narrow the list, then indicate the **ID** values for your top 10 preferences in the mentorship preferences form.
+Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse available mentors in the list below, (optionally) using the filters on the right to narrow the list, then indicate the **ID** values for your top 10 preferences in the mentorship preferences form.
 
 ```{=html}
   <table
