@@ -65,7 +65,7 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-friendly-checkbox" value="Friendly and welcoming" checked disabled>
+  <input class="form-check-input" type="checkbox" id="strength-friendly-checkbox" value="I am friendly and welcoming" checked disabled>
     <label class="form-check-label" for="strength-friendly-checkbox">
       <i class="bi bi-emoji-smile-fill pe-1"></i>Friendly and welcoming
     </label>
@@ -86,14 +86,7 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
 </div>
 
 <div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-campus-checkbox" value="Familiar with the campus" checked disabled>
-    <label class="form-check-label" for="strength-campus-checkbox">
-      <i class="bi bi-compass-fill pe-1"></i>Familiar with the campus
-    </label>
-</div>
-
-<div class="form-check form-check-inline">
-  <input class="form-check-input" type="checkbox" id="strength-experience-checkbox" value="Work/internship experience" checked disabled>
+  <input class="form-check-input" type="checkbox" id="strength-experience-checkbox" value="I have work and/or internship experience" checked disabled>
     <label class="form-check-label" for="strength-experience-checkbox">
       <i class="bi bi-suitcase-lg-fill pe-1"></i>Work/internship experience
     </label>
@@ -105,6 +98,7 @@ Welcome to the 2024 DSAN Mentorship Program at Georgetown University! Browse ava
       <i class="bi bi-mortarboard-fill pe-1"></i>I used to be a mentor in my undergrad
     </label>
 </div>
+
 <p class="h5 mb-1">Hobbies:</p>
 
 <div class="form-check form-check-inline">
