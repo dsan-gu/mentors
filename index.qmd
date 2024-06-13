@@ -326,11 +326,11 @@ function updateTable() {
     'filterAlgorithm': (row, filters) => {
       console.log("starting filter");
       // Check if any of the row's strengths are checked. If not, remove
-      var rowStrengthStr = row.Strengths;
+      var rowStrengthStr = row.strengths;
       var rowStrengths = rowStrengthStr.split(', ');
       var rowContainsSomeStrengths = rowStrengths.some(strengthCheck);
       console.log("rowContainsSomeStrengths = " + rowContainsSomeStrengths);
-      var rowHobbyStr = row.Hobbies;
+      var rowHobbyStr = row.hobbies;
       var rowHobbies = rowHobbyStr.split(', ');
       var rowContainsSomeHobbies = rowHobbies.some(hobbyCheck);
       console.log("rowContainsSomeHobbies = " + rowContainsSomeHobbies);
