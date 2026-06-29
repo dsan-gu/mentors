@@ -1,4 +1,12 @@
 /* css styles */
+@font-face {
+    font-family: futura-pt;
+    src: url("assets/futura-pt.otf") format("opentype");
+}
+
+.bs-checkbox input[type=checkbox] {
+    transform: scale(1.75);
+}
 
 * {
     box-sizing: border-box;
@@ -15,6 +23,7 @@
 
 html, body {
     height: 100% !important;
+    font-family: 'futura-pt', 'Arial', sans-serif;
 }
 
 .column-margin {
@@ -48,6 +57,10 @@ html, body {
 
 .form-check:hover {
     border: 1px solid gray !important;
+}
+
+.handle:hover {
+    cursor: ns-resize;
 }
 
 #mentor-table td {
@@ -89,6 +102,7 @@ html, body {
     vertical-align: middle !important;
     align-self: center !important;
     border-radius: 3px !important;
+    border-color: white !important;
     background-color: transparent !important;
 }
 
@@ -97,9 +111,14 @@ html, body {
     backdrop-filter: blur(10px) !important;
     filter: drop-shadow(0 0 0.75rem black) !important;
     border-radius: 10px !important;
+    /* border-color: white !important; */
     font-size: 28pt !important;
+    border: 2px solid white !important;
 }
 
+.selected td {
+    background-color: rgba(136,231,136,0.5) !important;
+}
 
 .subtitle {
     display: inline-block !important;
@@ -121,13 +140,16 @@ html, body {
 .sidebar-header {
     height: auto !important;
 }
-
 .sidebar-icon {
-    font-size: 85% !important;
+    font-size: 80% !important;
+}
+.sidebar-subtitle {
+    font-size: 12pt !important;
+    line-height: 0.7em !important;
 }
 
 .smaller-text {
-    font-size: 85% !important;
+    font-size: 80% !important;
 }
 
 .top-banner:before {

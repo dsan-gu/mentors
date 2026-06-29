@@ -1,2 +1,4 @@
 /.quarto/
 send_emails.js
+
+**/*.quarto_ipynb
