@@ -108,7 +108,7 @@ html, body {
 
 .quarto-title-span {
     background-color: transparent !important;
-    backdrop-filter: blur(10px) !important;
+    backdrop-filter: blur(8px) !important;
     filter: drop-shadow(0 0 0.75rem black) !important;
     border-radius: 10px !important;
     /* border-color: white !important; */
