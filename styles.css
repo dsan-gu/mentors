@@ -104,10 +104,12 @@ html, body {
     border-radius: 3px !important;
     border-color: white !important;
     background-color: transparent !important;
+    /* background-color: #041e42 !important; */
 }
 
 .quarto-title-span {
-    background-color: transparent !important;
+    /* background-color: transparent !important; */
+    background-color: #041e42 !important;
     backdrop-filter: blur(8px) !important;
     filter: drop-shadow(0 0 0.75rem black) !important;
     border-radius: 10px !important;
@@ -139,6 +141,9 @@ html, body {
 
 .sidebar-header {
     height: auto !important;
+}
+.sidebar-title {
+  color: #041e42 !important;
 }
 .sidebar-icon {
     font-size: 80% !important;
